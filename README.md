@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @Mehdy922
+- 👋 Hi, I’m @Mehdy
 - 👀 I’m a beginner programmer doing BSCS from FAST Lhr Pakistan
 - 🌱 I’m currently learning c++ and creating interesting projects
 - 💞️ I'll share all my code here and will look forward to any kind of help and advice in future
