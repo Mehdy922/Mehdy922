@@ -1,4 +1,4 @@
-- <h1 align="center">Hi 👋, I'm @Mehdy</h1>
+<h1 align="center">Hi 👋, I'm @Mehdy</h1>
 <h3 align="center">👀 I’m a beginner programmer doing BSCS from FAST Lhr Pakistan</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=mehdy922&label=Profile%20views&color=0e75b6&style=flat" alt="mehdy922" /> </p>
@@ -6,7 +6,7 @@
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=mehdy922" alt="mehdy922" /></a> </p>
 
 - 🌱 I’m currently learning **c++** and creating interesting projects
-- 
+
 - 💞️ I'll share all my code here and will look forward to any kind of help and advice in future
 
 - 👨‍💻 All of my projects are available at [https://github.com/Mehdy922](https://github.com/Mehdy922)
