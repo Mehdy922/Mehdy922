@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm @Mehdy</h1>
+<h1 align="center">Hi 👋, I'm Mehdy</h1>
 <h3 align="center">👀 I’m a beginner programmer doing BSCS from FAST Lhr Pakistan</h3>
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=mehdy922" alt="mehdy922" /></a> </p>
