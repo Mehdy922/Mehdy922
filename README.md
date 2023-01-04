@@ -38,8 +38,8 @@
 ![Mehdy's GitHub stats](https://github-readme-stats.vercel.app/api?username=Mehdy922&show_icons=true&theme=dark)
 
 <div align="center">
-  <a href="https://1999azzar.github.io/Mehdy922/">
-  <img  src="https://github.com/1999AZZAR/Mehdy922/blob/main/resources/img/grid-snake.svg"
+  <a href="https://Mehdy922.github.io/Mehdy922/">
+  <img  src="https://github.com/Mehdy922/Mehdy922/blob/main/resources/img/grid-snake.svg"
        alt="snake" /></a>
 </div>
 
