@@ -37,6 +37,6 @@
 
 ![Mehdy's GitHub stats](https://github-readme-stats.vercel.app/api?username=Mehdy922&show_icons=true&theme=dark)
 
-![snake gif](https://github.com/Mehdy922/Mehdy922/blob/output/github-contribution-grid-snake.gif)
+![snake gif](https://github.com/Mehdy922/Mehdy922/blob/output/github-snake-dark.svg)
 
 [![An image of @mehdy922's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/mehdy922)](https://holopin.io/@mehdy922)
