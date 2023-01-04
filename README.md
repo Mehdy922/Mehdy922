@@ -39,7 +39,7 @@
 
 <div align="center">
   <a href="https://1999azzar.github.io/Rexx922/">
-  <img  src="https://github.com/1999AZZAR/1999AZZAR/blob/main/resources/img/grid-snake.svg"
+  <img  src="https://github.com/1999AZZAR/Mehdy922/blob/main/resources/img/grid-snake.svg"
        alt="snake" /></a>
 </div>
 
