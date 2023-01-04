@@ -32,6 +32,6 @@
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=mehdy922&" alt="Mehdy922" /></p>
 
-https://github-readme-stats.vercel.app/api?username=Mehdy922&show_icons=true&theme=dark 
+![Mehdy's GitHub stats](https://github-readme-stats.vercel.app/api?username=Mehdy922&show_icons=true&theme=dark)
 
 [![An image of @mehdy922's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/mehdy922)](https://holopin.io/@mehdy922)
