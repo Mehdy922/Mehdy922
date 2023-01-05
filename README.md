@@ -4,7 +4,7 @@
 
 <h3 align="center">👀 I’m a beginner programmer doing BSCS from FAST Lhr Pakistan</h3>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=Mehdy922&theme=apprentice" alt="mehdy922" /></a> </p>
+<h3 align="left">🐛 About Myself:</h3>
 
 - 🌱 I’m currently learning **c++** and creating interesting projects
 
@@ -16,7 +16,7 @@
 
 - 📫 How to reach me **l211784@lhr.nu.edu.pk**
 
-<h3 align="left">Connect with me:</h3>
+<h3 align="left">📞 Connect with me:</h3>
 <p align="left">
 <a href="https://twitter.com/starco922" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="starco922" height="30" width="40" /></a>
 <a href="https://linkedin.com/in/muhammadmehdy" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="muhammadmehdy" height="30" width="40" /></a>
@@ -30,12 +30,20 @@
 <a href="https://www.topcoder.com/members/rexx922" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/topcoder.svg" alt="rexx922" height="30" width="40" /></a>
 </p>
 
-<h3 align="left">Languages and Tools:</h3>
+<h3 align="left">💻 Languages and Tools:</h3>
 <p align="left"> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> </p>
+
+
+<h3 align="left">📈 Trophies, Streaks, Stats and Holopin Badges:</h3>
+
+<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=Mehdy922&theme=apprentice" alt="mehdy922" /></a> </p>
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=mehdy922&theme=dark" alt="mehdy922" /></p>
 
+
 ![Mehdy's GitHub stats](https://github-readme-stats.vercel.app/api?username=Mehdy922&show_icons=true&theme=dark)
+
+<h4 align="middle">Watch my contibution get eaten by a snake 	🐍</h4>
 
 ![snake gif](https://github.com/Mehdy922/Mehdy922/blob/output/github-contribution-grid-snake.svg)
 
