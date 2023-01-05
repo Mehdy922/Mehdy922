@@ -43,7 +43,7 @@
 
 ![Mehdy's GitHub stats](https://github-readme-stats.vercel.app/api?username=Mehdy922&show_icons=true&theme=dark)
 
-<h4 align="middle">Watch my contibution get eaten by a snake 	🐍</h4>
+<h4 align="middle">Watch my contibutions get eaten by a snake 	🐍</h4>
 
 ![snake gif](https://github.com/Mehdy922/Mehdy922/blob/output/github-contribution-grid-snake.svg)
 
