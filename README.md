@@ -1,6 +1,6 @@
-<h2 align="center">Hi 👋, I'm Mehdy</h1>
-
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github.com/sourabmaity/sourabmaity/blob/main/header_.png" alt="mehdy922" /></a> </p>
+
+<h2 align="center">Hi 👋, I'm Mehdy</h1>
 
 <h3 align="center">👀 I’m a beginner programmer doing BSCS from FAST Lhr Pakistan</h3>
 
