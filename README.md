@@ -1,8 +1,8 @@
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github.com/sourabmaity/sourabmaity/blob/main/header_.png" alt="mehdy922" /></a> </p>
 
-<h2 align="center">Hi 👋, I'm Mehdy</h1>
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?center=true&lines=Hi+there%2C+I+am+Mehdy)](https://git.io/typing-svg)
 
-<h3 align="center">👀 I’m a beginner programmer doing BSCS from FAST Lhr Pakistan</h3>
+<p align="left">👀 I’m a beginner programmer doing BSCS from FAST Lhr Pakistan</p>
 
 <h3 align="left">🐛 About Myself:</h3>
 
