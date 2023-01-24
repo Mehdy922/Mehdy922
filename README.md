@@ -37,7 +37,7 @@
 <h3 align="left">📈 Trophies, Streaks, Stats and Holopin Badges:</h3>
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=Mehdy922&theme=apprentice" alt="mehdy922" /></a> </p>
-<p align="center"> <img align="center" src = "https://github-readme-stats.vercel.app/api?username=Mehdy922&theme=dark"></p>
+<p align="left"> <img align="center" src = "https://github-readme-stats.vercel.app/api?username=Mehdy922&theme=dark"></p>
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=mehdy922&theme=dark" alt="mehdy922" /></p>
 
 
