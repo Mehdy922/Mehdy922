@@ -38,11 +38,11 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=Mehdy922&theme=apprentice" alt="mehdy922" /></a> </p>
 <p align="left"> <img align="center" src = "https://github-readme-stats.vercel.app/api?username=Mehdy922&theme=dark"></p>
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=mehdy922&theme=dark" alt="mehdy922" /></p>
 
 
 <h4 align="middle">Watch my contibutions get eaten by a snake 	🐍</h4>
 
+![Snake animation](https://github.com/Mehdy922/Mehdy922/blob/output/github-contribution-grid-snake.svg)
 
 
 [![An image of @mehdy922's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/mehdy922)](https://holopin.io/@mehdy922)
