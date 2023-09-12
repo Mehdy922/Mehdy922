@@ -40,7 +40,7 @@
 <p align="left"> <img align="center" src = "https://github-readme-stats.vercel.app/api?username=Mehdy922&theme=dark"></p>
 
 
-<h4> align="middle">Watch my contibutions get eaten by a snake 	🐍</h4>
+<h4 align="left">Watch my contibutions get eaten by a snake 	🐍</h4>
 
 ![Snake animation](https://github.com/Mehdy922/Mehdy922/blob/output/github-contribution-grid-snake.svg)
 
