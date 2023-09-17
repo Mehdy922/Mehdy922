@@ -42,10 +42,12 @@
 
 <h4 align="left"> Watch my contibutions get eaten by a snake 	🐍</h4>
 
-![Snake animation](https://github.com/Mehdy922/Mehdy922/blob/output/github-contribution-grid-snake.svg)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="github-snake.svg" />
+  <img alt="github-snake" src="github-snake.svg" />
+</picture>
 
-
-[![An image of @mehdy922's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/mehdy922)](https://holopin.io/@mehdy922)
 
 
 ```
