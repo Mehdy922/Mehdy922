@@ -6,7 +6,7 @@
 
 <h3 align="left">🐛 About Myself:</h3>
 
-- 🌱 I’m currently learning **c++** and creating interesting projects
+- 🌱 I’m currently learning  and creating interesting projects
 
 - ✨ In my free time, I enjoy contributing to open source projects and staying up to date with the latest developments in the tech industry
 
