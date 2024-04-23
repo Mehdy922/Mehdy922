@@ -41,6 +41,11 @@
 
 [![An image of @mehdy922's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/mehdy922)](https://holopin.io/@mehdy922)
 
+## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30px">Streak Stats
+<p align="center"><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=Mehdy922&theme=dark" alt="Mehdy922" /></p>
+
+<hr style="height:2px;border-width:1;border-radius: 5px;color:#8080ff;background-color:#8080ff">
+
 <h4 align="left"> Watch my contibutions get eaten by a snake 	🐍</h4>
 
 <picture>
