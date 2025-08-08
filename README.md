@@ -2,7 +2,7 @@
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?center=true&lines=Hi+there%2C+I+am+Mehdy)](https://git.io/typing-svg)
 
-<p align="left">👀 I’m a programmer doing BSCS from FAST Lhr Pakistan</p>
+<p align="left">👀 Software Engineer | CS Grad </p>
 
 <h3 align="left">🐛 About Myself:</h3>
 
