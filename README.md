@@ -14,7 +14,7 @@
 
 - 👨‍💻 All of my projects are available at [https://github.com/Mehdy922](https://github.com/Mehdy922)
 
-- 📫 How to reach me **l211784@lhr.nu.edu.pk**
+- 📫 How to reach me **mehdy922@gmail.com**
 
 <h3 align="left">📞 Connect with me:</h3>
 <p align="left">
