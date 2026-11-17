@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  I build LLM-powered automation and data pipelines by day, currently in fintech,<br />
+  I build LLM-powered automation, data pipelines and business-specific customizations by day, currently in fintech,<br />
   and ship full products on the side: web, mobile and the backend behind them.
 </p>
 
@@ -15,7 +15,7 @@
 
 <img src="assets/header-now.svg" width="100%" alt="Now" />
 
-- **Data & AI engineer at Techlogix.** Building AI tools that cut manual workflows from hours to minutes, plus ETL/ELT pipelines and Oracle PL/SQL for production database migrations.
+- **Data & AI engineer at Techlogix.** Building AI tools that cut manual workflows from hours to minutes, plus ETL/ELT pipelines, business-specific customizations and Oracle PL/SQL for production database migrations.
 - **Shipping side products end to end.** Most recently [Neural Lab](https://mehdy922.github.io/neural-lab/), a browser app that lets a classroom train and break its own neural networks, and [RazeTech](https://razetech-pk.netlify.app), a full e-commerce storefront and admin panel.
 - **Product-minded.** Former product management intern at PakWheels, where I led a redesign that lifted task completion by 35%. I care about what gets built, not only how.
 
@@ -42,6 +42,12 @@
 
 <p align="center">
   <img src="assets/stack.svg" width="100%" alt="Data and AI: Python, SQL, PL/SQL, Oracle DB, ETL/ELT pipelines, LLM integration, YOLOv8. Web: TypeScript, JavaScript, React, Next.js, Node.js, Tailwind, Supabase, Firebase. Mobile: Flutter, Dart, Firebase Auth, Firestore, Cloud Functions. Tools: Git, GitHub Actions, Linux, AWS, Netlify, Vercel, C/C++." />
+</p>
+
+<img src="assets/header-badges.svg" width="100%" alt="Badges" />
+
+<p align="center">
+  <a href="https://holopin.io/@mehdy922"><img src="https://holopin.me/mehdy922" alt="Holopin badge board for @mehdy922, earned at MLH and other hackathon events" width="100%" /></a>
 </p>
 
 <img src="assets/header-contact.svg" width="100%" alt="Contact" />

@@ -453,9 +453,10 @@ save("banner.svg", banner());
 save("header-now.svg", header("NOW", "01"));
 save("header-builds.svg", header("FEATURED BUILDS", "02"));
 save("header-stack.svg", header("STACK", "03"));
-save("header-contact.svg", header("CONTACT", "04"));
+save("header-badges.svg", header("BADGES", "04"));
+save("header-contact.svg", header("CONTACT", "05"));
 PROJECTS.forEach((p, i) => save(p.file, card(p, i + 1)));
 save("stack.svg", stackPanel(STACK));
 save("footer.svg", footer());
 
-console.log(`wrote ${PROJECTS.length + 7} files to ${OUT}`);
+console.log(`wrote ${PROJECTS.length + 8} files to ${OUT}`);
