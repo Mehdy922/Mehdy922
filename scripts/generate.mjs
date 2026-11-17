@@ -34,18 +34,36 @@ const W = 900; // matches the width GitHub renders a profile README at
 
 // Perspective floor grid: verticals fan out from a vanishing point,
 // horizontals bunch up toward the horizon.
-function grid({ horizon, bottom, vx = W / 2, cols = 26, rows = 9, opacity = 0.75 }) {
-  const lines = [];
+function grid({ horizon, bottom, vx = W / 2, cols = 26, rows = 9, opacity = 0.75, speed = 0 }) {
   const depth = bottom - horizon;
+  const verticals = [];
   for (let i = -cols; i <= cols; i++) {
-    const x2 = vx + i * 95;
-    lines.push(`<line x1="${vx}" y1="${horizon}" x2="${x2}" y2="${bottom}"/>`);
+    verticals.push(`<line x1="${vx}" y1="${horizon}" x2="${vx + i * 95}" y2="${bottom}"/>`);
   }
+  const still = [];
   for (let j = 1; j <= rows; j++) {
     const y = (horizon + depth * Math.pow(j / rows, 2.1)).toFixed(1);
-    lines.push(`<line x1="0" y1="${y}" x2="${W}" y2="${y}"/>`);
+    still.push(`<line x1="0" y1="${y}" x2="${W}" y2="${y}"/>`);
   }
-  return `<g stroke="${C.magenta}" stroke-width="1.2" opacity="${opacity}">${lines.join("")}</g>`;
+  const open = `<g stroke="${C.magenta}" stroke-width="1.2" opacity="${opacity}">`;
+  if (!speed) return `${open}${verticals.join("")}${still.join("")}</g>`;
+
+  // Animated floor: each horizontal starts on the horizon and accelerates toward
+  // the viewer (ease-in reads as perspective). Negative delays stagger the lines
+  // so the loop is already full on the first frame.
+  const moving = [];
+  for (let j = 0; j < rows; j++) {
+    const delay = (-(j * speed) / rows).toFixed(2);
+    moving.push(`<line class="gl" style="animation-delay:${delay}s" x1="0" y1="${horizon}" x2="${W}" y2="${horizon}"/>`);
+  }
+  return `<style>
+      .gl { animation: flow ${speed}s cubic-bezier(0.55, 0, 1, 0.5) infinite, rise ${speed}s linear infinite; }
+      .gstill { display: none; }
+      @keyframes flow { from { transform: translateY(0) } to { transform: translateY(${depth}px) } }
+      @keyframes rise { 0% { opacity: 0 } 18%, 100% { opacity: 1 } }
+      @media (prefers-reduced-motion: reduce) { .gl { display: none } .gstill { display: inline } }
+    </style>
+    ${open}${verticals.join("")}<g class="gstill">${still.join("")}</g>${moving.join("")}</g>`;
 }
 
 // ---------------------------------------------------------------- banner
@@ -100,6 +118,11 @@ function banner() {
       <stop offset="0" stop-color="${C.magenta}" stop-opacity="0.55"/>
       <stop offset="1" stop-color="${C.magenta}" stop-opacity="0"/>
     </radialGradient>
+    <linearGradient id="scanband" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="${C.cyan}" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="${C.cyan}" stop-opacity="0.08"/>
+      <stop offset="1" stop-color="${C.cyan}" stop-opacity="0"/>
+    </linearGradient>
     <mask id="sunmask">
       <rect x="0" y="0" width="${W}" height="${horizon}" fill="white"/>
       ${stripes.join("")}
@@ -113,10 +136,16 @@ function banner() {
       .tw { animation: tw 3.2s ease-in-out infinite; }
       .halo { animation: pulse 5s ease-in-out infinite; transform-origin: ${sun.cx}px ${sun.cy}px; }
       .cursor { animation: blink 1.1s steps(1) infinite; }
+      .shoot { opacity: 0; animation: shoot 9s linear infinite; }
+      .s2 { animation-name: shoot2; animation-duration: 13s; animation-delay: 4s; }
+      .scan { animation: scan 7s linear infinite; }
+      @keyframes shoot { 0% { transform: translate(120px, 18px) rotate(24deg); opacity: 0 } 2% { opacity: 0.9 } 11% { transform: translate(430px, 156px) rotate(24deg); opacity: 0 } 100% { transform: translate(430px, 156px) rotate(24deg); opacity: 0 } }
+      @keyframes shoot2 { 0% { transform: translate(560px, 10px) rotate(155deg); opacity: 0 } 2% { opacity: 0.8 } 9% { transform: translate(330px, 118px) rotate(155deg); opacity: 0 } 100% { transform: translate(330px, 118px) rotate(155deg); opacity: 0 } }
+      @keyframes scan { from { transform: translateY(-40px) } to { transform: translateY(${H}px) } }
       @keyframes tw { 0%,100% { opacity: 1 } 50% { opacity: 0.15 } }
       @keyframes pulse { 0%,100% { transform: scale(1); opacity: 0.85 } 50% { transform: scale(1.12); opacity: 1 } }
       @keyframes blink { 0%,55% { opacity: 1 } 56%,100% { opacity: 0 } }
-      @media (prefers-reduced-motion: reduce) { .tw, .halo, .cursor { animation: none } }
+      @media (prefers-reduced-motion: reduce) { .tw, .halo, .cursor { animation: none } .shoot, .scan { display: none } }
     </style>
   </defs>
 
@@ -124,11 +153,17 @@ function banner() {
     <rect width="${W}" height="${H}" fill="url(#sky)"/>
     <g fill="#ffffff" opacity="0.8">${stars.join("")}</g>
 
+    <g stroke="#ffffff" stroke-width="1.6" stroke-linecap="round">
+      <line class="shoot" x1="0" y1="0" x2="46" y2="0"/>
+      <line class="shoot s2" x1="0" y1="0" x2="34" y2="0"/>
+    </g>
+    <rect class="scan" x="0" y="0" width="${W}" height="40" fill="url(#scanband)"/>
+
     <circle class="halo" cx="${sun.cx}" cy="${sun.cy}" r="${sun.r + 62}" fill="url(#halo)"/>
     <circle cx="${sun.cx}" cy="${sun.cy}" r="${sun.r}" fill="url(#sun)" mask="url(#sunmask)"/>
 
     <rect x="0" y="${horizon}" width="${W}" height="${H - horizon}" fill="${C.night}"/>
-    ${grid({ horizon, bottom: H, vx: sun.cx })}
+    ${grid({ horizon, bottom: H, vx: sun.cx, rows: 10, speed: 3.6 })}
     <rect x="0" y="${horizon}" width="${W}" height="${H - horizon}" fill="url(#floorfade)"/>
     <line x1="0" y1="${horizon}" x2="${W}" y2="${horizon}" stroke="${C.cyan}" stroke-width="2" filter="url(#glow)"/>
 
@@ -152,10 +187,21 @@ function header(label, index) {
       <stop offset="0.6" stop-color="${C.violet}"/>
       <stop offset="1" stop-color="${C.cyan}" stop-opacity="0"/>
     </linearGradient>
+    <linearGradient id="spark" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <style>
+      .sweep { animation: sweep 5s ease-in-out infinite; }
+      @keyframes sweep { 0% { transform: translateX(0) } 60%, 100% { transform: translateX(${W + 120}px) } }
+      @media (prefers-reduced-motion: reduce) { .sweep { display: none } }
+    </style>
   </defs>
   <text x="2" y="24" font-family="${MONO}" font-size="12" letter-spacing="2" fill="${C.cyan}">${index}</text>
   <text x="34" y="25" font-family="${SANS}" font-size="20" font-weight="800" font-style="italic" letter-spacing="2.5" fill="${C.magenta}">${esc(label)}</text>
   <rect x="0" y="38" width="${W}" height="2.5" rx="1.25" fill="url(#rule)"/>
+  <rect class="sweep" x="-120" y="37.5" width="120" height="3.5" rx="1.75" fill="url(#spark)"/>
 </svg>`;
 }
 
@@ -227,10 +273,15 @@ function card(p, n) {
       <stop offset="1" stop-color="${C.magenta}" stop-opacity="0"/>
     </radialGradient>
     <clipPath id="clip"><rect x="1" y="1" width="${CW - 2}" height="${CH - 2}" rx="13"/></clipPath>
+    <style>
+      .breathe { animation: breathe 6s ease-in-out infinite; animation-delay: -${n}s; }
+      @keyframes breathe { 0%, 100% { opacity: 0.5 } 50% { opacity: 1 } }
+      @media (prefers-reduced-motion: reduce) { .breathe { animation: none } }
+    </style>
   </defs>
   <rect x="1" y="1" width="${CW - 2}" height="${CH - 2}" rx="13" fill="url(#fill)"/>
   <g clip-path="url(#clip)">
-    <rect x="0" y="0" width="${CW}" height="${CH}" fill="url(#corner)"/>
+    <rect class="breathe" x="0" y="0" width="${CW}" height="${CH}" fill="url(#corner)"/>
     <g stroke="${C.magenta}" stroke-width="1" opacity="0.16">
       ${Array.from({ length: 7 }, (_, i) => `<line x1="${CW - 150 + i * 25}" y1="0" x2="${CW - 150 + i * 25}" y2="62"/>`).join("")}
       ${Array.from({ length: 3 }, (_, i) => `<line x1="${CW - 150}" y1="${12 + i * 25}" x2="${CW}" y2="${12 + i * 25}"/>`).join("")}
@@ -303,7 +354,7 @@ function footer() {
   </defs>
   <g clip-path="url(#frame)">
     <rect width="${W}" height="${H}" fill="${C.night}"/>
-    ${grid({ horizon, bottom: H, rows: 7, opacity: 0.55 })}
+    ${grid({ horizon, bottom: H, rows: 8, opacity: 0.55, speed: 3.6 })}
     <rect width="${W}" height="${H}" fill="url(#fade)"/>
     <line x1="0" y1="${horizon}" x2="${W}" y2="${horizon}" stroke="${C.cyan}" stroke-width="2" filter="url(#glow)"/>
     <rect x="${W / 2 - 150}" y="50" width="300" height="40" rx="20" fill="${C.night}" fill-opacity="0.85" stroke="${C.magenta}" stroke-opacity="0.8"/>

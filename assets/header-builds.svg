@@ -5,8 +5,19 @@
       <stop offset="0.6" stop-color="#8a5cff"/>
       <stop offset="1" stop-color="#22e6ff" stop-opacity="0"/>
     </linearGradient>
+    <linearGradient id="spark" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <style>
+      .sweep { animation: sweep 5s ease-in-out infinite; }
+      @keyframes sweep { 0% { transform: translateX(0) } 60%, 100% { transform: translateX(1020px) } }
+      @media (prefers-reduced-motion: reduce) { .sweep { display: none } }
+    </style>
   </defs>
   <text x="2" y="24" font-family="'Cascadia Code','SF Mono','JetBrains Mono',Consolas,'Courier New',monospace" font-size="12" letter-spacing="2" fill="#22e6ff">02</text>
   <text x="34" y="25" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="20" font-weight="800" font-style="italic" letter-spacing="2.5" fill="#ff2e97">FEATURED BUILDS</text>
   <rect x="0" y="38" width="900" height="2.5" rx="1.25" fill="url(#rule)"/>
+  <rect class="sweep" x="-120" y="37.5" width="120" height="3.5" rx="1.75" fill="url(#spark)"/>
 </svg>
