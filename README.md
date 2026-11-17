@@ -1,74 +1,53 @@
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github.com/sourabmaity/sourabmaity/blob/main/header_.png" alt="mehdy922" /></a> </p>
-
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?center=true&lines=Hi+there%2C+I+am+Mehdy)](https://git.io/typing-svg)
-
-<p align="left">👀 Software Engineer | CS Grad </p>
-
-<h3 align="left">🐛 About Myself:</h3>
-
-- 🌱 I’m currently learning  and creating interesting projects
-
-- ✨ In my free time, I enjoy contributing to open source projects and staying up to date with the latest developments in the tech industry
-
-- 💞️ I'll share all my code here and will look forward to any kind of help and advice in future
-
-- 👨‍💻 All of my projects are available at [https://github.com/Mehdy922](https://github.com/Mehdy922)
-
-- 📫 How to reach me **mehdy922@gmail.com**
-
-<h3 align="left">📞 Connect with me:</h3>
-<p align="left">
-<a href="https://twitter.com/starco922" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="starco922" height="30" width="40" /></a>
-<a href="https://linkedin.com/in/muhammadmehdy" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="muhammadmehdy" height="30" width="40" /></a>
-<a href="https://fb.com/mehdy512" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="mehdy512" height="30" width="40" /></a>
-<a href="https://instagram.com/me_mehdy" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="me_mehdy" height="30" width="40" /></a>
-<a href="https://www.codechef.com/users/rexx922" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.1.0/icons/codechef.svg" alt="rexx922" height="30" width="40" /></a>
-<a href="https://www.hackerrank.com/mehdy922" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="mehdy922" height="30" width="40" /></a>
-<a href="https://codeforces.com/profile/mehdy922" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codeforces.svg" alt="mehdy922" height="30" width="40" /></a>
-<a href="https://www.leetcode.com/mehdy922" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="mehdy922" height="30" width="40" /></a>
-<a href="https://www.hackerearth.com/muhammad mehdy" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerearth.svg" alt="muhammad mehdy" height="30" width="40" /></a>
-<a href="https://www.topcoder.com/members/rexx922" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/topcoder.svg" alt="rexx922" height="30" width="40" /></a>
+<p align="center">
+  <img src="assets/banner.svg" width="100%" alt="Muhammad Mehdy · Software Engineer · Data & AI" />
 </p>
 
-<h3 align="left">📈 Trophies, Streaks, Stats and Holopin Badges:</h3>
+<p align="center">
+  I build LLM-powered automation and data pipelines by day, currently in fintech,<br />
+  and ship full products on the side: web, mobile and the backend behind them.
+</p>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=Mehdy922&theme=apprentice" alt="mehdy922" /></a> </p>
-<p align="left"> <img align="center" src = "https://github-readme-stats.vercel.app/api?username=Mehdy922&theme=dark"></p>
+<p align="center">
+  <a href="mailto:mehdy922@gmail.com"><b>Email</b></a> &nbsp;·&nbsp;
+  <a href="https://linkedin.com/in/muhammadmehdy"><b>LinkedIn</b></a> &nbsp;·&nbsp;
+  Lahore, Pakistan (UTC+5)
+</p>
 
-[![An image of @mehdy922's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/mehdy922)](https://holopin.io/@mehdy922)
+<img src="assets/header-now.svg" width="100%" alt="Now" />
 
-## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30px">Streak Stats
-<p align="center"><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=Mehdy922&theme=dark" alt="Mehdy922" /></p>
+- **Data & AI engineer at Techlogix.** Building AI tools that cut manual workflows from hours to minutes, plus ETL/ELT pipelines and Oracle PL/SQL for production database migrations.
+- **Shipping side products end to end.** Most recently [Neural Lab](https://mehdy922.github.io/neural-lab/), a browser app that lets a classroom train and break its own neural networks, and [RazeTech](https://razetech-pk.netlify.app), a full e-commerce storefront and admin panel.
+- **Product-minded.** Former product management intern at PakWheels, where I led a redesign that lifted task completion by 35%. I care about what gets built, not only how.
 
-<hr style="height:2px;border-width:1;border-radius: 5px;color:#8080ff;background-color:#8080ff">
+<img src="assets/header-builds.svg" width="100%" alt="Featured builds" />
 
-<h4 align="left"> Watch my contibutions get eaten by a snake 	🐍</h4>
+<p align="center">
+  <a href="https://mehdy922.github.io/neural-lab/"><img src="assets/card-neural-lab.svg" width="400" alt="Neural Lab: classroom lessons on what a machine really learns. React, Vite, Firebase. Live." /></a>
+  <a href="https://razetech-pk.netlify.app"><img src="assets/card-razetech.svg" width="400" alt="RazeTech: e-commerce storefront and admin for a tech retailer. Next.js, TypeScript, Firestore. Live." /></a>
+</p>
+<p align="center">
+  <a href="https://meha-tracker.vercel.app"><img src="assets/card-meha-tracker.svg" width="400" alt="MEHA Tracker: shared weight and calorie tracker for friend groups. Next.js 15, Supabase. Live." /></a>
+  <img src="assets/card-elder-ring.svg" width="400" alt="Elder Ring: real-time AI monitoring for elderly care. Python, YOLOv8, Flutter, Firebase. Final year project." />
+</p>
+<p align="center">
+  <img src="assets/card-moveon.svg" width="400" alt="MoveOn: booking app for a transport company. Flutter, Firestore, Cloud Functions. Client work." />
+  <img src="assets/card-ai-automation.svg" width="400" alt="AI Workflow Automation: Data and AI engineering at Techlogix. Python, LLM integration, Oracle, PL/SQL." />
+</p>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Mehdy922/Mehdy922/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Mehdy922/Mehdy922/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Mehdy922/Mehdy922/output/github-contribution-grid-snake.svg">
-</picture>
+<p align="center">
+  <sub>Cards marked LIVE open the running app. Source for <a href="https://github.com/Mehdy922/neural-lab">Neural Lab</a> is public; the rest lives in private repos.</sub>
+</p>
 
+<img src="assets/header-stack.svg" width="100%" alt="Stack" />
 
-```
-▒▒▒░░░░░░░░░░▄▐░░░░
-▒░░░░░░▄▄▄░░▄██▄░░░
-░░░░░░▐▀█▀▌░░░░▀█▄░
-░░░░░░▐█▄█▌░░░░░░▀█▄             Silas the Skeleton says hi!
-░░░░░░░▀▄▀░░░▄▄▄▄▄▀▀
-░░░░░▄▄▄██▀▀▀▀░░░░░         Add Silas to your profile to help him 
-░░░░█▀▄▄▄█░▀▀░░░░░░                  travel across GitHub!
-░░░░▌░▄▄▄▐▌▀▀▀░░░░░
-░▄░▐░░░▄▄░█░▀▀░░░░░
-░▀█▌░░░▄░▀█▀░▀░░░░░
-░░░░░░░░▄▄▐▌▄▄░░░░░
-░░░░░░░░▀███▀█░▄░░░
-░░░░░░░▐▌▀▄▀▄▀▐▄░░░
-░░░░░░░▐▀░░░░░░▐▌░░
-░░░░░░░█░░░░░░░░█░░
-░░░░░░▐▌░░░░░░░░░█░ 
-```
+<p align="center">
+  <img src="assets/stack.svg" width="100%" alt="Data and AI: Python, SQL, PL/SQL, Oracle DB, ETL/ELT pipelines, LLM integration, YOLOv8. Web: TypeScript, JavaScript, React, Next.js, Node.js, Tailwind, Supabase, Firebase. Mobile: Flutter, Dart, Firebase Auth, Firestore, Cloud Functions. Tools: Git, GitHub Actions, Linux, AWS, Netlify, Vercel, C/C++." />
+</p>
 
-<table><tbody><tr><td><a href="https://octo-ring.com/"><img src="https://octo-ring.com/static/img/widget/top.png" width="99%" alt="Octo Ring logo" align="top"></a><br><a href="https://octo-ring.com/p/HENRYMARTIN5/prev"><img src="https://octo-ring.com/static/img/widget/prev.png" width="33%" alt="previous" align="top" title="previous profile"></a><a href="https://octo-ring.com/p/HENRYMARTIN5/random"><img src="https://octo-ring.com/static/img/widget/random.png" width="33%" alt="random" align="top" title="random profile"></a><a href="https://octo-ring.com/p/HENRYMARTIN5/next"><img src="https://octo-ring.com/static/img/widget/next.png" width="33%" alt="next" align="top" title="next profile"></a><br><a href="https://octo-ring.com/"><img src="https://octo-ring.com/static/img/widget/bottom.png" width="99%" alt="check out other GitHub profiles in the Octo Ring" align="top"></a></td></tr></tbody></table>
+<img src="assets/header-contact.svg" width="100%" alt="Contact" />
 
+Best way to reach me is email: **[mehdy922@gmail.com](mailto:mehdy922@gmail.com)**. I'm also on [LinkedIn](https://linkedin.com/in/muhammadmehdy).
+
+<p align="center">
+  <img src="assets/footer.svg" width="100%" alt="Thanks for stopping by" />
+</p>
