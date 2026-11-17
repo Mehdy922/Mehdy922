@@ -15,7 +15,7 @@
 
 <img src="assets/header-now.svg" width="100%" alt="Now" />
 
-- **Data & AI engineer at Techlogix.** Building AI tools that cut manual workflows from hours to minutes, plus ETL/ELT pipelines, business-specific customizations and Oracle PL/SQL for production database migrations.
+- **Data & AI engineer at Techlogix.** Building AI tools that cut manual workflows from hours to minutes, plus ETL/ELT pipelines and business-specific customizations in Oracle PL/SQL.
 - **Shipping side products end to end.** Most recently [Neural Lab](https://mehdy922.github.io/neural-lab/), a browser app that lets a classroom train and break its own neural networks, and [RazeTech](https://razetech-pk.netlify.app), a full e-commerce storefront and admin panel.
 - **Product-minded.** Former product management intern at PakWheels, where I led a redesign that lifted task completion by 35%. I care about what gets built, not only how.
 
