@@ -432,8 +432,8 @@ const PROJECTS = [
     tagline: "Day job: Data & AI engineering at Techlogix",
     lines: [
       "LLM-driven tools that take manual workflows from",
-      "hours to minutes, plus ETL/ELT pipelines and Oracle PL/SQL",
-      "for production database migrations.",
+      "hours to minutes, plus ETL/ELT pipelines and",
+      "business-specific customizations in Oracle PL/SQL.",
     ],
     stack: ["Python", "LLM integration", "Oracle", "PL/SQL", "ETL/ELT"],
     tag: "WORK",
